@@ -1,0 +1,140 @@
+.container-centered {
+    margin: 20px auto;
+    width: 1024px;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ddd5d5;
+    box-shadow: 10px 10px 20px -1px rgba(0, 0, 0, 0.23);
+  }
+  
+  .two-columns {
+    display: flex;
+  }
+  .left-column {
+    width: 30%;
+    color:white;
+    background-color: black;
+  }
+  header {
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+  }
+  header img {
+    margin-bottom: 10px;
+    border: 10px solid var(--pink-color);
+    border-radius: 5%;
+  }
+  header h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+  }
+  
+  header h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  
+  main {
+    padding: 0 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  main h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  .contacts h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color:rgb(255, 202, 193)
+  }
+  main li {
+    margin-bottom: 10px;
+  }
+  .contacts li p {
+    display: inline;
+    vertical-align: middle;
+  }
+  .skills h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color:rgb(255, 202, 193)
+  }
+  .skills li p {
+    display: inline;
+    vertical-align: middle;}
+   
+    .Languages h2 {
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: center;
+      color:rgb(255, 202, 193)
+    }
+    .Languages li p {
+      display: inline;
+      vertical-align: middle;}
+     
+     
+      .right-column .sub-header {
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 15px;
+      }
+      .right-column .about-myself .sub-header {
+        margin-top: 0;
+      }
+
+      h3 {
+        flex: 1;
+        vertical-align: middle;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: rgb(36, 17, 82);
+        border-bottom: 2px solid red;
+        margin-left: 10px;
+      }
+      .right-column p {
+        color: rgb(36, 17, 82);
+        margin-left: 20px;
+        font-size: 20px;
+      }
+      .education p {
+        margin-left: 45px;
+      }
+      pre {
+                background-color: #220d70;
+      }
+      code {
+        margin-left: 15px;
+        font-size:15px;
+        color:white
+      }
+      footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        font-size: 0.8rem;
+        color: #440404;
+        background-color: var(--dark-gray-color);
+      }
+      footer a {
+        text-decoration: none;
+        color: #5f0909;
+      }
+      .my-github {
+        display: flex;
+        align-items: center;
+      }
+      
